@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_quiz">
+        <item>Historia</item>
+        <item>Geografía</item>
+        <item>Ciencias</item>
+        <item>Programación</item>
+    </string-array>
+
+    <string-array name="dificultades_quiz">
+        <item>Fácil</item>
+        <item>Intermedio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="alternativas_quiz">
+        <item>Alternativa A</item>
+        <item>Alternativa B</item>
+        <item>Alternativa C</item>
+        <item>Alternativa D</item>
+    </string-array>
+
+    <string-array name="cantidades_ia">
+        <item>5 preguntas</item>
+        <item>10 preguntas</item>
+        <item>15 preguntas</item>
+    </string-array>
+</resources>

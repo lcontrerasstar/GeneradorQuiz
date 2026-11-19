@@ -1,3 +1,77 @@
 <resources>
     <string name="app_name">Generador de Quiz</string>
+
+    <!-- Login -->
+    <string name="desc_logo">Logo de Generador de Quiz</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_clave">Contraseña</string>
+    <string name="txt_recordarme">Recordarme</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="txt_ir_registro">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Registro -->
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="subtitulo_registro">Crea y responde quizzes de cualquier tema</string>
+    <string name="hint_nombre">Nombre de usuario</string>
+    <string name="hint_repetir_clave">Repetir contraseña</string>
+    <string name="pregunta_registro">¿Para qué usarás los quizzes?</string>
+    <string name="rb_estudiar">Estudiar</string>
+    <string name="rb_ensenar">Enseñar</string>
+    <string name="rb_entretencion">Entretenerme</string>
+    <string name="chk_terminos">Acepto los términos y condiciones</string>
+    <string name="btn_crear_cuenta">Crear cuenta</string>
+    <string name="txt_ir_login">¿Ya tienes cuenta? Ingresa</string>
+
+    <!-- Lista -->
+    <string name="titulo_lista">Mis Quizzes</string>
+    <string name="desc_btn_ia">Generar quiz con IA</string>
+    <string name="desc_btn_agregar">Agregar quiz</string>
+    <string name="desc_btn_salir">Cerrar sesión</string>
+    <string name="desc_icono_quiz">Ícono del quiz</string>
+    <string name="btn_jugar">Jugar</string>
+    <string name="quiz1_titulo">Historia de Chile</string>
+    <string name="quiz1_info">10 preguntas · Fácil</string>
+    <string name="quiz2_titulo">Capitales del mundo</string>
+    <string name="quiz2_info">15 preguntas · Intermedio</string>
+    <string name="quiz3_titulo">Kotlin básico</string>
+    <string name="quiz3_info">8 preguntas · Difícil</string>
+    <string name="quiz4_titulo">Sistema solar</string>
+    <string name="quiz4_info">12 preguntas · Fácil</string>
+
+    <!-- Agregar -->
+    <string name="titulo_agregar">Nuevo quiz</string>
+    <string name="hint_titulo_quiz">Título del quiz</string>
+    <string name="lbl_categoria">Categoría</string>
+    <string name="lbl_dificultad">Dificultad</string>
+    <string name="lbl_pregunta">Primera pregunta</string>
+    <string name="hint_pregunta">Ej: ¿En qué año se fundó Santiago?</string>
+    <string name="hint_alt_a">Alternativa A</string>
+    <string name="hint_alt_b">Alternativa B</string>
+    <string name="hint_alt_c">Alternativa C</string>
+    <string name="hint_alt_d">Alternativa D</string>
+    <string name="lbl_correcta">Respuesta correcta</string>
+    <string name="btn_guardar_quiz">Guardar quiz</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- Detalle -->
+    <string name="det_categoria">Categoría: Historia</string>
+    <string name="det_dificultad">Dificultad: Fácil</string>
+    <string name="det_preguntas">10 preguntas</string>
+    <string name="det_mejor_puntaje">Mejor puntaje: 8 de 10</string>
+    <string name="det_lbl_ejemplo">Pregunta de ejemplo</string>
+    <string name="det_pregunta_ejemplo">¿En qué año se fundó Santiago?\n\nA) 1536\nB) 1541 ✔\nC) 1810\nD) 1818</string>
+    <string name="sw_favorito">Marcar como favorito</string>
+    <string name="btn_jugar_quiz">Jugar quiz</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+
+    <!-- IA -->
+    <string name="titulo_ia">Quiz con IA</string>
+    <string name="desc_btn_volver">Volver a la lista</string>
+    <string name="lbl_tema_ia">¿Sobre qué tema quieres un quiz?</string>
+    <string name="hint_tema_ia">Ej: Revolución francesa para 4° medio</string>
+    <string name="lbl_cantidad_ia">Cantidad de preguntas</string>
+    <string name="btn_generar_ia">Generar quiz</string>
+    <string name="lbl_respuesta_ia">Quiz generado</string>
+    <string name="respuesta_ejemplo_ia">Quiz: Revolución francesa\n\n1. ¿En qué año comenzó la Revolución francesa?\nA) 1689  B) 1789 ✔  C) 1815  D) 1848\n\n2. ¿Qué edificio fue tomado el 14 de julio?\nA) Versalles  B) Louvre  C) La Bastilla ✔  D) Notre Dame\n\n3. ¿Qué documento se aprobó en 1789?\nA) Declaración de los Derechos del Hombre ✔  B) Carta Magna  C) Código Civil  D) Constitución de 1791</string>
 </resources>
