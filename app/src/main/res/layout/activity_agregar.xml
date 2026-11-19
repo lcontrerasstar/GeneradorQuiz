@@ -14,11 +14,10 @@
 
         <TextView
             android:id="@+id/txtTituloAgregar"
+            style="@style/TituloPantalla"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/titulo_agregar"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="@string/titulo_agregar" />
 
         <EditText
             android:id="@+id/edtTituloQuiz"

@@ -1,9 +1,19 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
     <style name="Base.Theme.GeneradorDeQuiz" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/sobre_primario</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorSurface">@color/fondo</item>
+        <item name="colorSurfaceContainer">@color/fondo_tarjeta</item>
+        <item name="android:textColorHint">@color/texto_hint</item>
     </style>
 
     <style name="Theme.GeneradorDeQuiz" parent="Base.Theme.GeneradorDeQuiz" />
+
+    <!-- Estilo propio: títulos de pantalla -->
+    <style name="TituloPantalla">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
 </resources>

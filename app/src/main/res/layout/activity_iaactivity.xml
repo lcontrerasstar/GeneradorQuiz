@@ -17,12 +17,11 @@
 
         <TextView
             android:id="@+id/txtTituloIA"
+            style="@style/TituloPantalla"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/titulo_ia"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:text="@string/titulo_ia" />
 
         <ImageButton
             android:id="@+id/btnVolverIA"
